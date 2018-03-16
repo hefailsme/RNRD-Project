@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: url("../images/project1bg5.jpg") fixed no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#login-logo {
+    max-width: 100%;
+    margin: 80px auto;
+    height: 50px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #ef4036;
+}
+
+.btn:hover {
+    background-color: #ac2d26;
+}
+
+element.style {
+    max-width: 600px;
+}
+
+#logoTest {
+    margin-left: 40px;
+    width: 600px;
+}
+
+.form-control input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+#loginImg {
+    width: 300px;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+
+#sign-in {
+    background-color: rgba(41, 42, 50, 0.297);
+    position: relative;
+    margin: 0 auto;
+    padding-right: 22px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+p.form-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    width: 300px;
+}
+
+form {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.search-form {
+    width: 400px;
+}
+
+form.login input[type="text"],
+form.login input[type="password"] {
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: black;
+    outline: 0;
+}
+
+#submit-button {
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+#submit-button:hover {
+    background-color: #ef4036;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+i {
+    color: #ef4036;
+}
+
+#submit-button:hover i {
+    color: #ffffff;
+}
+
+form.login input[type="submit"] {
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    color: black;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.login input[type="submit"]:hover {
+    transition: background-color 0.5s ease;
+}
+
+form.login label,
+form.login a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form.login a {
+    transition: color 0.5s ease;
+}
+
+form.login a:hover {
+    color: #1cce69af;
+}
+
+/* ///////////////////////////////////////////// */
+
+nav {
+    background-color: rgba(138, 138, 138, 0.3);
+}
+
+#searchDiv {
+    position: relative;
+    margin: 0 auto;
+    top: 80px;
+    height: 100%;
+    width: 400px;
+}
+
+a {
+    color:  #ef4036;
+}
+
+.flow-text{ 
+    font-size: 18px;
+}
+
+#search-input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+#submitBTN{
+    position: relative;
+    color: white;
+    opacity: 0.85;
+    background-color: #ef4036;
+    background-image: no-repeat;
+    /* width: 32px; */
+    height: 29px;
+    background-position: center;
+    /* background-size: 140%; */
+    float: right;
+    bottom: 50px;
+    /* left: 2px; */
+    border-width: 2px;
+    /* border-radius: 5px; */
+    /* width: 50px; */
+    box-shadow: none;
+    
+}
+
+.glyphicon {
+    color: #FFFFFF;
+}
+
+#cardYt, #ticketmaster-container {
+    background-color: rgba(138, 138, 138, 0.3);
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    height: 100%;
+    max-width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: rgb(55, 50, 50);
+    letter-spacing: 4px;
+    margin-bottom: 85px;
+}
+
+#cardYt {
+    margin-bottom: 150px;
+}
+
+.container {
+    width: 90% !important;
+}
+
+#search-input:focus {
+    border-bottom: 1px solid #ef4036;
+    box-shadow: 0 1px 0 0 #ef4036;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#username:focus {
+    border-bottom: 1px solid #ef4036;
+    box-shadow: 0 1px 0 0 #ef4036;
+}
+
+#password:focus {
+    border-bottom: 1px solid #ef4036;
+    box-shadow: 0 1px 0 0 #ef4036;
+}
+
+#whatToSearch {
+    margin-top: 10px;
+}
+
+h2 {
+    padding: 0 15px;
+}
+
+.track-container {
+    padding: 0 15px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+iframe {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.vid-title {
+    margin-top: 12.3px;
+}
+
+.copyright {
+    font-size: 5px;
+}
+
+#whatToSearch {
+    margin-left: 160px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(55, 50, 50);
+    letter-spacing: 4px;
+}
+
+.nav-wrapper{
+    position: fixed;
+    height: 100%;
+    background-color: #efefef;
+}
+.nav-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(55, 50, 50);
+    letter-spacing: 4px;
+}
+
+.nav-text:hover {
+    color: #ef4036;
+}
+
+.concertBar {
+    font-weight: bold;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 992px) {
+    #whatToSearch {
+        display: none;
+    }
+
+    #logoTest {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    form {
+        width: 100%;
+    }
+}
